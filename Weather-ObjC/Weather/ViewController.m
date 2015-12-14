@@ -20,7 +20,7 @@
     
     //Initializes location services.
     _locationManager = [[CLLocationManager alloc] init];
-    [_locationManager requestAlwaysAuthorization];
+    [_locationManager requestAlwaysAuthorization]; 
     
 }
 

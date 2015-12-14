@@ -12,7 +12,7 @@
 @implementation UIImage (animatedGIF)
 
 static int delayCentisecondsForImageAtIndex(CGImageSourceRef const source, size_t const i) {
-    int delayCentiseconds = 1;
+    int delayCentiseconds = 1; 
     CFDictionaryRef const properties = CGImageSourceCopyPropertiesAtIndex(source, i, NULL);
     if (properties) {
         CFDictionaryRef const gifProperties = CFDictionaryGetValue(properties, kCGImagePropertyGIFDictionary);

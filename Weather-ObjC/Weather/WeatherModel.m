@@ -11,7 +11,7 @@
 
 @implementation WeatherModel
 
-//Finds image url in description
+//Finds image url in description 
 -(NSURL*)getImageURL{
     NSError *error = NULL;
     __block NSString * image = nil;

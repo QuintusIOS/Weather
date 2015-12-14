@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "WeatherAPI.h"
 #import <MapKit/MapKit.h>
-#import "UIImage+animatedGIF.h"
+#import "UIImage+animatedGIF.h" 
 
 @interface ViewController : UIViewController<MKMapViewDelegate>
 

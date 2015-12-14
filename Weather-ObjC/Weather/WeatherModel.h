@@ -11,7 +11,7 @@
 
 @interface WeatherModel : NSObject
 
-/**Temperature in current location*/
+/**Temperature in current location*/ 
 @property (nonatomic) double temp;
 
 /**Temperature unit. C for Celsius, F for Fahrenheit*/

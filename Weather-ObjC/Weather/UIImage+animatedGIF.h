@@ -11,7 +11,7 @@
         UIImage *animation = [UIImage animatedImageWithAnimatedGIFData:theData];
     
     I interpret `theData` as a GIF.  I create an animated `UIImage` using the source images in the GIF.
-    
+     
     The GIF stores a separate duration for each frame, in units of centiseconds (hundredths of a second).  However, a `UIImage` only has a single, total `duration` property, which is a floating-point number.
     
     To handle this mismatch, I add each source image (from the GIF) to `animation` a varying number of times to match the ratios between the frame durations in the GIF.
